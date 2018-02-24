@@ -1,6 +1,6 @@
 //
 // BuilderDefaultStrategy.swift
-// Genosia
+// genosia
 //
 // Copyright 2018 Victor Peschenkov
 //
@@ -87,7 +87,7 @@ class BuilderReadmeStrategy: BuilderStrategyInterface {
         generated += "\(content.footer)"
         // Write
         try fileHelper.write(withFilePath: "README.MD", content: generated)
-        print("👍  README.MD")
+        print("README.MD 👍")
     }
     
     // MARK: Private

@@ -1,6 +1,6 @@
 //
 // CategoriesValidator.swift
-// Genosia
+// genosia
 //
 // Copyright 2018 Victor Peschenkov
 //

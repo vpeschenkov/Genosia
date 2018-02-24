@@ -1,6 +1,6 @@
 //
 // BuilderArchiveStrategy.swift
-// Genosia
+// genosia
 //
 // Copyright 2018 Victor Peschenkov
 //
@@ -61,7 +61,7 @@ class BuilderArchiveStrategy: BuilderStrategyInterface {
         generated += "\(content.footer)"
         // Write
         try fileHelper.write(withFilePath: "ARCHIVE.MD", content: generated)
-        print("👍  ARCHIVE.MD")
+        print("ARCHIVE.MD 👍")
     }
     
     // MARK: Private

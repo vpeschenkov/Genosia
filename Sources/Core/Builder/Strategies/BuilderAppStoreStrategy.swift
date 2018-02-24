@@ -1,6 +1,6 @@
 //
 // BuilderAppStoreStrategy.swift
-// Genosia
+// genosia
 //
 // Copyright 2018 Victor Peschenkov
 //
@@ -82,7 +82,7 @@ class BuilderAppStoreStrategy: BuilderStrategyInterface {
         generated += "\(content.footer)"
         // Write
         try fileHelper.write(withFilePath: "APPSTORE.MD", content: generated)
-        print("👍  APPSTORE.MD")
+        print("APPSTORE.MD 👍")
     }
     
     // MARK: Private

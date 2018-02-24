@@ -1,6 +1,6 @@
 //
 // main.swift
-// Genosia
+// genosia
 //
 // Copyright 2018 Victor Peschenkov
 //
@@ -50,7 +50,7 @@ class GenerationCommand: Command {
                     builder.strategy = (strategy as! BuilderStrategyInterface)
                     try builder.build()
                 }
-                print("👍  CONTENT GENERATION IS DONE")
+                print("CONTENT GENERATION IS DONE 👍")
             }
             
             if links.value {
@@ -66,7 +66,7 @@ class GenerationCommand: Command {
                     builder.strategy = (strategy as! BuilderStrategyInterface)
                     try builder.build()
                 }
-                print("👍  LINKS GENERATION IS DONE")
+                print("LINKS GENERATION IS DONE 👍")
             }
         }
         catch let error {
@@ -92,7 +92,7 @@ class ValidationCommand: Command {
                 validator.filePath = path.value ?? "contents.json"
                 validator.fileHelper = FileHelper()
                 try validator.validate()
-                print("👍  VALIDATION IS DONE")
+                print("VALIDATION IS DONE 👍")
             }
         }
         catch let error {
