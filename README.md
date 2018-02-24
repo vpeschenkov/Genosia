@@ -40,7 +40,7 @@ genosia validate --content
 
 ## Contribute
 
-We would love you for the contribution to **Genosia**, check the [`LICENSE`](https://github.com/vpeschenkov/genosia/blob/master/LICENSE) file for more info.
+We would love you for the contribution to **Genosia**, check the [`LICENSE`](https://github.com/vpeschenkov/genosia/blob/master/LICENSE) file for more info. To contribute, please, use this [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/).
 
 ## Meta
 
