@@ -57,8 +57,8 @@ class BuilderLinksStrategy: BuilderStrategyInterface {
             print("\(index) \(link)")
         }
         
-        try fileHelper.write(withFilePath: "check-unique.txt", content: uniques.joined(separator: "\n"))
-        try fileHelper.write(withFilePath: "check-info.txt", content: info.joined(separator: "\n"))
+        try fileHelper.write(withFilePath: "check-unique.txt", content: uniques.joined(separator: "\n").appending("\n"))
+        try fileHelper.write(withFilePath: "check-info.txt", content: info.joined(separator: "\n").appending("\n"))
         
         var links = [String]()
         for app in activeApps {
@@ -79,6 +79,6 @@ class BuilderLinksStrategy: BuilderStrategyInterface {
             print("\(index) \(link)")
         }
         
-        try fileHelper.write(withFilePath: "check-links.txt", content: links.joined(separator: "\n"))
+        try fileHelper.write(withFilePath: "check-links.txt", content: links.joined(separator: "\n").appending("\n"))
     }
 }

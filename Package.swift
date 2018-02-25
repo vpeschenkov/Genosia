@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "genosia",
+    products: [
+        .library(name: "genosia", targets: ["genosia"]),
+    ],
     dependencies: [
         .package(url: "https://github.com/jakeheis/SwiftCLI", from: "4.0.0")
     ],
